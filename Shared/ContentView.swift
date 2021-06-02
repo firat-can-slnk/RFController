@@ -134,7 +134,7 @@ struct FilledButton: ButtonStyle {
             .padding()
             .scaleEffect(configuration.isPressed ? 1.02 : 0.98)
             .font(.title)
-            .background(configuration.isPressed ? Color.gray.opacity(0.3) : Color.white)
+            .background(configuration.isPressed ? Color.gray.opacity(0.3) : Color.white.opacity(0))
             .cornerRadius(100)
             .foregroundColor(configuration.isPressed ? .accentColor.opacity(0.8) : .accentColor)
             .scaleEffect(configuration.isPressed ? 0.95 : 1.05)
